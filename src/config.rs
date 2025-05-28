@@ -70,7 +70,7 @@ lazy_static::lazy_static! {
     pub static ref OVERWRITE_LOCAL_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
      pub static ref HARD_SETTINGS: RwLock<HashMap<String, String>> = {
         let mut map = HashMap::new();
-        map.insert("password".to_string(), "bayblue".to_string());
+        map.insert("password".to_string(), "Jin13305571640".to_string());
         RwLock::new(map)
     };
     pub static ref BUILTIN_SETTINGS: RwLock<HashMap<String, String>> = Default::default();
@@ -105,8 +105,8 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["120.37.177.214"];
-pub const RS_PUB_KEY: &str = "BZ5N00JeZnVTBdB1Tj6Q47Lj1ofaRS+JMg0K44IHotw=";
+pub const RENDEZVOUS_SERVERS: &[&str] = &["toudao.fun"];
+pub const RS_PUB_KEY: &str = "O2vMkTHpyEZVvIBsMVxa0iQWCN7gYvw7j+4R2g5Gj3k=";
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
 pub const RELAY_PORT: i32 = 21117;
